@@ -1,0 +1,50 @@
+/* line 2, ../sass/positions.scss */
+body h1 {
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+}
+/* line 10, ../sass/positions.scss */
+body .positions {
+  margin: auto;
+  width: 30%;
+  padding-top: 10px;
+}
+/* line 14, ../sass/positions.scss */
+body .positions .position-name {
+  width: 200px;
+  box-sizing: border-box;
+  margin: 0px;
+  display: inline-block;
+  font-size: 30px;
+  color: white;
+  margin: auto;
+}
+/* line 22, ../sass/positions.scss */
+body .positions input {
+  border: 2px solid white;
+  border-radius: 12px;
+  background-color: rgba(54, 25, 25, 0);
+  color: white;
+  width: 200px;
+  height: 30px;
+  border-collapse: collapse;
+  margin-top: 25px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 20px;
+  margin: auto;
+}
+/* line 36, ../sass/positions.scss */
+body .positions #update {
+  height: 40px;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  color: #ff9d00;
+  border: 2px solid #ff9d00;
+}
+/* line 43, ../sass/positions.scss */
+body .positions #update:hover {
+  background-color: black;
+}
